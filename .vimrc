@@ -96,7 +96,7 @@ noremap d h
 noremap h gj
 noremap t gk
 noremap n l
-noremap E D
+noremap e d
 noremap s :
 noremap b n
 noremap B N
