@@ -71,6 +71,7 @@ augroup filetypedetect
     au BufRead,BufNewFile *.avsc set filetype=json
     au BufRead,BufNewFile *.scala set filetype=scala syntax=scala
     au BufRead,BufNewFile *.gradle setf groovy
+    au BufRead,BufNewFile *.thrift set filetype=thrift syntax=thrift
 augroup END
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
