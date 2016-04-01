@@ -57,6 +57,10 @@ set autoread
 " Highlight anything > 80
 match ErrorMsg '\%>80v.\+'
 
+" Make file path visible
+set laststatus=2
+set statusline=%f
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Syntax highlighting for specific file types
